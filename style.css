@@ -1,0 +1,125 @@
+body {
+    width: auto;
+    margin: auto;
+    font-family: 'Nunito';
+    padding: 0.5rem;
+    font-size: 20px;
+    background-color: #44291d;
+}
+
+header {
+    background-color: #44291d;
+    height: fit-content;
+    padding: 10px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+#menuh {
+    float: right;
+}
+
+.botao {
+    border: solid 1px #44291d;
+    color: #44291d;
+    background-color: #fefbed;
+    font-family: 'nunito';
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 4px 2px;
+    transition: background-color 0.5s ease;
+}
+
+.botao:hover {
+    background-color: #985f47;
+    color: white;
+}
+
+#container {
+    position: relative;
+    background-image: url(/imagens/Faixa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*#child{
+    /*Centralizar na vertical e na horizontal */
+/*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*margin: -25px 0 0 -25px; /*aplique margens superior e esquerda negativas para centralizar de verdade o elemento*/
+/*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #e8d8c4;
+    font-size: xxx-large;
+    font: bold italic;
+    text-size-adjust: auto;
+}*/
+
+#menu_container {
+    margin: 0% 5% 0% 5%;
+    background-color: #fefbed;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #44291d;
+    padding: 10px;
+    color: #fefbed;
+    margin: 0px;
+}
+
+h2 {
+    padding: 5px;
+    margin: 0px;
+    color: #44291d;
+}
+
+.tabelapreco {
+    font-size: medium;
+    padding: 10px;
+    color: none;
+}
+
+/*AQUI TENTEI COLOCAR UMA IMAGEM DO FUNDO EM UM BLOCO DE CÉLULAS DA TABELA, NÃO DEU*/
+#quente {
+    background-image: url(/imagens/hario.png);
+    background-color: #44291d;
+}
+
+.itemimagem{
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    align-content: flex-start;
+}
+
+table,
+th,
+td {
+    padding: 0px;
+    margin: 0px;
+    /*border: 1px solid #44291d;*/
+}
+
+.colunapreco {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #44291d;
+    height: fit-content;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: #fefbed;
+    margin: 0px;
+}
